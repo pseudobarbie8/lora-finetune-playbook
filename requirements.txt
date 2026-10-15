@@ -1,0 +1,9 @@
+torch
+transformers
+peft
+trl
+datasets
+accelerate
+bitsandbytes
+pyyaml
+mlflow
