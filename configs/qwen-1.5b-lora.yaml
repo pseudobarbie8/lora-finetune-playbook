@@ -1,0 +1,13 @@
+model: Qwen/Qwen2.5-1.5B-Instruct
+dataset: yahma/alpaca-cleaned
+max_train_samples: 2000
+max_eval_samples: 200
+max_length: 512
+lora: {r: 16, alpha: 32, dropout: 0.05}
+lr: 2.0e-4
+epochs: 1
+batch_size: 4
+grad_accum: 4
+quantize_4bit: true
+output_dir: outputs/run1
+seed: 42
